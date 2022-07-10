@@ -1,0 +1,242 @@
+img {
+  max-width: 100%;
+}
+
+.blogBanner {
+  background-image: url('../pictures/shelby-g23df70452_1920.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 98%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #404040;
+  border-radius: 20px;
+  color: #111;
+}
+
+.insadaBlogBanner {
+  text-align: center;
+}
+
+.insadaBlogBanner h1 {
+  padding-top: 30px;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px #404040;
+}
+
+
+
+.bodyHome {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.posts {
+  margin: 0 auto;
+  padding: 20px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+
+}
+
+.posts .post {
+  padding: 30px;
+}
+
+.posts .post img {
+  border-radius: 30px;
+}
+
+.posts .post h4 {
+  text-align: center;
+}
+
+.posts .post span {
+  display: block;
+  color: #ABABAB;
+  text-align: center;
+}
+
+.banner {
+  margin: 50px auto;
+  background-color: #5E4242;
+  border-radius: 10px;
+}
+
+.banner img {
+  padding: 20px;
+}
+
+.banner p {
+  padding: 20px;
+}
+
+@media (orientation:portrait) and (min-width:320px) {
+  .insadaBlogBanner h1 {
+    font-size: 42px;
+  }
+
+  .insadaBlogBanner p {
+    font-size: 20px;
+  }
+
+  .posts {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+
+
+  .posts .post h4 {
+    font-size: 24px;
+  }
+
+  .posts .post p {
+    font-size: 12px;
+  }
+
+  .banner {
+    width: 95%;
+    min-height: 20vh;
+  }
+
+  .banner img {
+    display: block;
+    height: 20vh;
+    float: left;
+  }
+
+  .banner p {
+    font-size: 12px;
+  }
+}
+
+@media (orientation:portrait) and (min-width:410px) {
+  .insadaBlogBanner h1 {
+    font-size: 52px;
+  }
+
+  .insadaBlogBanner p {
+    font-size: 26px;
+  }
+
+  .posts .post h4 {
+    font-size: 31px;
+  }
+
+  .posts .post p {
+    font-size: 16px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+}
+
+@media (orientation:portrait) and (min-width:768px) {
+  .insadaBlogBanner h1 {
+    font-size: 62px;
+  }
+
+  .insadaBlogBanner p {
+    font-size: 32px;
+  }
+
+  .posts .post h4 {
+    font-size: 38px;
+  }
+
+  .posts .post p {
+    font-size: 20px;
+  }
+
+  .banner p {
+    font-size: 20px;
+  }
+}
+
+@media (orientation:landscape) {
+  .insadaBlogBanner h1 {
+    font-size: 42px;
+  }
+
+  .insadaBlogBanner p {
+    font-size: 20px;
+  }
+
+  .posts .post {
+    padding: 10px;
+  }
+
+  .posts .post h4 {
+    font-size: 24px;
+  }
+
+  .posts .post p {
+    font-size: 12px;
+  }
+
+  .banner {
+    width: 20%;
+  }
+
+  .banner p {
+    font-size: 12px;
+  }
+}
+
+@media (orientation:landscape) and (min-width:640px) {
+  .insadaBlogBanner h1 {
+    font-size: 52px;
+  }
+
+  .insadaBlogBanner p {
+    font-size: 26px;
+  }
+
+  .posts .post {
+    padding: 20px;
+  }
+
+  .posts .post h4 {
+    font-size: 31px;
+  }
+
+  .posts .post p {
+    font-size: 16px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+}
+
+@media (orientation:landscape) and (min-width:1024px) {
+  .insadaBlogBanner h1 {
+    font-size: 62px;
+  }
+
+  .insadaBlogBanner p {
+    font-size: 32px;
+  }
+
+  .posts .post {
+    padding: 30px;
+  }
+
+  .posts .post h4 {
+    font-size: 38px;
+  }
+
+  .posts .post p {
+    font-size: 20px;
+  }
+
+  .banner p {
+    font-size: 20px;
+  }
+}

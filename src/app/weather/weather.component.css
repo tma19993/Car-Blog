@@ -1,0 +1,159 @@
+h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.weathers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+  margin: 50px auto 0 auto;
+}
+
+.weathers div {
+  text-align: center;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px #ABABAB;
+  color: #0D0D0D;
+  text-shadow: 0 0 10px #ABABAB;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.weathers .monza {
+  background-image: url("../pictures/monza.jpg");
+}
+
+.weathers .monaco {
+  background-image: url("../pictures/monaco.jpg");
+}
+
+.weathers .spa {
+  background-image: url("../pictures/spa.jpg");
+}
+
+.weathers .nurburgring {
+  background-image: url("../pictures/nurburgring.jpg");
+}
+
+.weathers .leMans {
+  background-image: url("../pictures/le-mans.jpg");
+}
+
+
+.weathers div .container h3 {
+  font-size: 32px;
+}
+
+.weathers div .container p {
+  margin: 10px 0 20px 0;
+  font-size: 24px;
+  color: #fff;
+  padding: 5px;
+  background-color: #0D0D0D;
+  border-radius: 10px;
+}
+
+@media (orientation:portrait) and (min-width: 320px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  .weathers div .container h3 {
+    font-size: 20px;
+  }
+
+  .weathers div .container p {
+    font-size: 16px;
+  }
+}
+
+@media (orientation:portrait) and (min-width: 410px) {
+  h2 {
+    font-size: 38px;
+  }
+
+  .weathers div .container h3 {
+    font-size: 26px;
+  }
+
+  .weathers div .container p {
+    font-size: 20px;
+  }
+}
+
+@media (orientation:portrait) and (min-width: 768px) {
+  h2 {
+    font-size: 46px;
+  }
+
+  .weathers div .container h3 {
+    font-size: 32px;
+  }
+
+  .weathers div .container p {
+    font-size: 24px;
+  }
+}
+
+@media (orientation:landscape) {
+  .weathers div {
+    width: 70vh;
+    height: 70vh;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .weathers div .container h3 {
+    font-size: 20px;
+  }
+
+  .weathers div .container p {
+    font-size: 16px;
+  }
+}
+
+@media (orientation:landscape) and (min-width: 640px) {
+  h2 {
+    font-size: 38px;
+  }
+
+  .weathers div .container h3 {
+    font-size: 24px;
+  }
+
+  .weathers div .container p {
+    font-size: 20px;
+  }
+}
+
+@media (orientation:landscape) and (min-width: 1024px) {
+  .weathers div {
+    width: 50vh;
+    height: 50vh;
+  }
+
+  h2 {
+    font-size: 46px;
+  }
+
+  .weathers div .container h3 {
+    font-size: 32px;
+  }
+
+  .weathers div .container p {
+    font-size: 24px;
+  }
+}

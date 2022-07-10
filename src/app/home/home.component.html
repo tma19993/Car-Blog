@@ -1,0 +1,25 @@
+<div class="home">
+  <div class='blogBanner'>
+    <div class="insadaBlogBanner">
+      <h1>Car Blog</h1>
+      <p>This is blog about cars.</p>
+    </div>
+  </div>
+
+</div>
+<section class="bodyHome">
+  <section class="posts">
+    <div class="post" *ngFor="let post of postsView">
+      <img src="../../assets/automobile-gfd613a919_1280.jpg" alt="car">
+      <h4>{{post.title}}</h4>
+      <span>{{post.addition_date?.slice(0,10)}}</span>
+      <p>{{post.body}}</p>
+
+    </div>
+  </section>
+  <section class="banner">
+    <img src="../../assets/e-gas-station-g5e7b3897c_1280.png" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nemo quaerat nostrum corrupti qui ut, totam
+      tempora fuga quae eaque deleniti reiciendis eius veniam harum fugit sit, cupiditate doloribus suscipit.</p>
+  </section>
+</section>

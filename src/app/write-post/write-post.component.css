@@ -1,0 +1,148 @@
+section {
+  padding-top: 10px;
+}
+
+section .writeBanner {
+  background-image: url(../pictures/car-bgc-write.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px #404040;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .writeBanner h2 {
+  text-align: center;
+  text-shadow: 0 0 10px #0D0D0D;
+}
+
+section .writeForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 20px;
+  margin: 4vh auto 0 auto;
+
+}
+
+section .writeForm input,
+section .writeForm textarea {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+section button {
+  text-transform: uppercase;
+  display: block;
+  background-color: #404040;
+  color: #fff;
+  margin: 30px auto;
+  cursor: pointer;
+  padding: 20px 30px;
+  border-radius: 30px;
+  transition: .2s;
+}
+
+section button:hover {
+  background-color: #5E4242;
+}
+
+
+@media (orientation:portrait) and (min-width: 320px) {
+  section .writeBanner h2 {
+    font-size: 30px;
+  }
+
+  section .writeForm input,
+  section .writeForm textarea {
+    font-size: 20px;
+  }
+
+  section button {
+    font-size: 15px;
+  }
+}
+
+@media (orientation:portrait) and (min-width: 410px) {
+  section .writeBanner h2 {
+    font-size: 38px;
+  }
+
+  section .writeForm input,
+  section .writeForm textarea {
+    font-size: 23px;
+  }
+
+  section button {
+    font-size: 20px;
+  }
+}
+
+@media (orientation:portrait) and (min-width: 768px) {
+  section .writeBanner h2 {
+    font-size: 46px;
+  }
+
+  section .writeForm input,
+  section .writeForm textarea {
+    font-size: 26px;
+  }
+
+  section button {
+    font-size: 25px;
+  }
+}
+
+@media (orientation:landscape) {
+  section .writeBanner h2 {
+    font-size: 30px;
+  }
+
+  section .writeForm input,
+  section .writeForm textarea {
+    font-size: 20px;
+  }
+
+  section button {
+    font-size: 15px;
+  }
+}
+
+@media (orientation:landscape) and (min-width: 640px) {
+  section .writeBanner h2 {
+    font-size: 38px;
+  }
+
+  section .writeForm input,
+  section .writeForm textarea {
+    font-size: 23px;
+  }
+
+  section button {
+    font-size: 20px;
+  }
+}
+
+@media (orientation:landscape) and (min-width: 1024px) {
+  section .writeBanner h2 {
+    font-size: 46px;
+  }
+
+  section .writeForm input,
+  section .writeForm textarea {
+    font-size: 26px;
+  }
+
+  section button {
+    font-size: 25px;
+  }
+}
